@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PlainShellPOC.Pages"
+    x:Class="PlainShellPOC.BaseFolder.AppShell"
+    FlyoutBehavior="Disabled"
+    >
+    <!--<ShellItem FlyoutIcon="bars"  Title="Home">
+        <ShellSection Title="Home Page">
+            <ShellContent Title="Home Page" >
+                <local:IntroPage />
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>-->
+    <ShellItem Title="IntroPage">
+        <ShellSection Title="Intro Page">
+            <ShellContent Title="Intro Page" >
+                <local:IntroPage />
+            </ShellContent>
+        </ShellSection>
+    </ShellItem>
+    <!--<ShellContent Route="about"
+                  Style="{StaticResource AboutShell}"
+                  Title="About"
+                  Icon="info.png"
+                  ContentTemplate="{DataTemplate views:AboutPage}" />-->
+</Shell>
