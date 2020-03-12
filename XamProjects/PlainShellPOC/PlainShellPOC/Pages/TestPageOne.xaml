@@ -5,9 +5,10 @@
     x:Class="PlainShellPOC.Pages.TestPageOne">
 
     <ContentPage.Content>
-        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <AbsoluteLayout BackgroundColor="AliceBlue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Label x:Name="testLabel" Text="Main Page" HorizontalOptions="FillAndExpand" VerticalOptions="Start"></Label>
+                <Label x:Name="headerLabel" Text="Main Page" HorizontalOptions="FillAndExpand" VerticalOptions="Start"></Label>
+                <Label x:Name="textLabel" Text="Main Page" HorizontalOptions="FillAndExpand" VerticalOptions="Start"></Label>
             </StackLayout>
         </AbsoluteLayout>
     </ContentPage.Content>

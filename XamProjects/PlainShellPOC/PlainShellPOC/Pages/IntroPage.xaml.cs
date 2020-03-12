@@ -15,8 +15,8 @@ namespace PlainShellPOC.Pages
         {
             try
             {
-                var textEntryText = (!string.IsNullOrEmpty(textEntry.Text)) ? "Hello World" : textEntry.Text;
-                Shell.Current.GoToAsync($"MainPage?name={textEntryText}");
+                var textEntryText = (string.IsNullOrEmpty(textEntry.Text)) ? "Hello World" : textEntry.Text;
+                Shell.Current.GoToAsync($"TestPageOne?name={textEntryText}&text={textEntryText}");
             }
             catch(Exception ex)
             {
